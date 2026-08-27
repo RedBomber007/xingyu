@@ -1,0 +1,47 @@
+:root {
+  /* 主题色 */
+  --color-primary: #ff9a76;
+
+  /* 心情-暖色 */
+  --mood-happy: #ffd93d;
+  --mood-angry: #ff8a80;
+  --mood-irritated: #ffb74d;
+
+  /* 心情-冷色 */
+  --mood-calm: #81d4fa;
+  --mood-confused: #b39ddb;
+  --mood-tired: #a8e6cf;
+
+  /* 健康四叶草 */
+  --clover-red: #ff6b6b;
+  --clover-cyan: #4ecdc4;
+  --clover-yellow: #ffe66d;
+  --clover-green: #a8e6cf;
+
+  /* 知识气泡（学科主题色） */
+  --subject-chinese: #ff9a76;
+  --subject-math: #679b9b;
+  --subject-english: #c6a2e8;
+
+  /* 星云点亮 */
+  --star-off: #2c3a47;
+  --star-on: #f7dc6f;
+
+  /* 背景 */
+  --bg-warm: #faf8f5;
+  --bg-grey: #f0edea;
+
+  /* 文本 */
+  --text-primary: #4a4a4a;
+  --text-secondary: #8c8c8c;
+
+  /* 圆角 */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  /* 间距 */
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC',
+    'Microsoft YaHei', sans-serif;
+  background: var(--bg-warm);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+  height: 100%;
+}
+
+/* 通用页面占位样式（M0 阶段，后续各视图自行覆盖） */
+.page {
+  padding: var(--space-lg);
+}
+
+.page h1 {
+  font-size: 24px;
+  margin-bottom: var(--space-sm);
+}
+
+.page__hint {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
