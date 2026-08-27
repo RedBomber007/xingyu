@@ -37,9 +37,13 @@
 import { ref } from 'vue'
 import { SUBJECTS } from '../../constants/subjects'
 
+const props = defineProps({
+  initialDuration: { type: Number, default: 30 },
+})
+
 const emit = defineEmits(['save', 'close'])
 const subject = ref('数学')
-const duration = ref(30)
+const duration = ref(props.initialDuration)
 const content = ref('')
 const gain = ref('')
 
